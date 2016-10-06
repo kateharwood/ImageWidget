@@ -1,0 +1,49 @@
+
+
+figure {
+  display: block;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+
+figcaption {
+  position: absolute;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 15px;
+  padding: 10px 20px;
+  opacity: 0;
+  width: 100%;
+  -webkit-transition: all 500s;
+  -moz-transition:    all 500s;
+  -o-transition:      all 500s;
+  transition: all 500ms;
+}
+
+figure:hover figcaption { opacity: 1; }
+
+
+/* TOP SLIDE IN*/
+
+figcaption.top { top: -30%; }
+
+figure:hover figcaption.top { top: 0; }
+
+
+/* BOTTOM SLIDE IN*/
+
+figcaption.bottom { 
+  bottom: -30%;
+  font-size: 12px; 
+}
+
+figure:hover figcaption.bottom { bottom: 0; }
+
+
+.nav-buttons {
+  display: inline;
+  float: right;
+  margin-right: 30px;
+}
