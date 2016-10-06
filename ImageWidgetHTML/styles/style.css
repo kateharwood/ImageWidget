@@ -1,4 +1,7 @@
-
+/* 
+  Styles for image widget example
+  By: Kate Harwood
+*/
 
 figure {
   display: block;
@@ -27,19 +30,19 @@ figure:hover figcaption { opacity: 1; }
 
 /* TOP SLIDE IN*/
 
-figcaption.top { top: -30%; }
+figcaption.top-bar { top: -30%; }
 
-figure:hover figcaption.top { top: 0; }
+figure:hover figcaption.top-bar { top: 0; }
 
 
 /* BOTTOM SLIDE IN*/
 
-figcaption.bottom { 
+figcaption.bottom-bar { 
   bottom: -30%;
   font-size: 12px; 
 }
 
-figure:hover figcaption.bottom { bottom: 0; }
+figure:hover figcaption.bottom-bar { bottom: 0; }
 
 
 .nav-buttons {
