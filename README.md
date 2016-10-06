@@ -1,2 +1,2 @@
 # ImageWidget
-Example of hover effects on an image in HTML/CSS and React Native
+Example image widget in HTML/CSS and React Native
