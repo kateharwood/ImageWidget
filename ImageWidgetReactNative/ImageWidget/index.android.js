@@ -3,7 +3,6 @@
   By: Kate Harwood
  */
 
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -134,18 +133,16 @@ class ImageWidget extends Component {
   // if at end of gallery
   onPressNav (direction) {
     if (direction === 'right') { // move right through gallery
-      // wrap
       if(this.imageNum === this.images.length - 1) {
-        this.imageNum = 0;
+        this.imageNum = 0; // wrap
       }
       else {
         this.imageNum++;
       }
     }
     else { // move left through gallery
-      // wrap
       if(this.imageNum === 0) {
-        this.imageNum = this.images.length - 1;
+        this.imageNum = this.images.length - 1; // wrap
       }
       else{
         this.imageNum = this.imageNum - 1;
