@@ -15,8 +15,8 @@ import {
   Animated,
 } from 'react-native';
 
-const IMG_WIDTH = 300;
-const IMG_HEIGHT = 200;
+const IMG_WIDTH = 400;
+const IMG_HEIGHT = 250;
 
 class ImageWidget extends Component {
 
@@ -101,7 +101,7 @@ class ImageWidget extends Component {
 
     this.state.titlePosition.setValue(titleStart);
     this.state.infoPosition.setValue(infoStart);
-    this.state.navPosition.setValue(titleStart - 50);
+    this.state.navPosition.setValue(titleStart - 45);
                         // bc nav buttons are originally below title
 
     Animated.parallel([
@@ -115,7 +115,7 @@ class ImageWidget extends Component {
       Animated.timing(
         this.state.navPosition,
         {
-          toValue: titleEnd - 50,
+          toValue: titleEnd - 45,
           duration: 500,
         }
       ),

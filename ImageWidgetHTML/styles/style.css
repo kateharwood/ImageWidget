@@ -17,16 +17,12 @@ figcaption {
   font-family: "Century Gothic", sans-serif;
   font-size: 15px;
   padding: 10px 20px;
-  opacity: 0;
   width: 100%;
   -webkit-transition: all 500s;
   -moz-transition:    all 500s;
   -o-transition:      all 500s;
   transition: all 500ms;
 }
-
-figure:hover figcaption { opacity: 1; }
-
 
 /* TOP SLIDE IN*/
 
